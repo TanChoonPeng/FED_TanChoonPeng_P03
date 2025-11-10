@@ -1,0 +1,31 @@
+ul{list-style: none;}
+
+.flex-container{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-item{
+  background-color: coral;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  width: 100px; 
+  margin: 10px;
+}
+
+@media (max-width: 576px) {
+  .flex-container {
+    width: 70%;
+    margin: auto;
+    flex-flow:column wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+/*   .flex-item {
+    background-color: yellow;
+    color: black;
+  } */
+}
