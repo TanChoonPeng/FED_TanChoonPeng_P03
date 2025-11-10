@@ -1,2 +1,3 @@
-# FED_TanChoonPeng_P03
-Front-End Development Practical Exercises
+# FED_TanChoonPeng_P03 - Author: Tan Choon Peng
+## Front-End Development Practical Exercises
+This respository keeps all the weekly practical exercises done by me
